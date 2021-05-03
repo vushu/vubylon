@@ -1,6 +1,6 @@
 {
     "name": "vubylon",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Vubylon a babylonjs helper library, for reducing boilerplates",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
