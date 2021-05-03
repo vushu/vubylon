@@ -1,11 +1,21 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es2015",
         "declaration": true,
-        "outDir": "./vubylon"
+        "declarationDir": "./dist",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "lib": ["es2017", "es7", "es6", "dom"],
+        "target": "es5",
+        "outDir": "./dist",
+        "moduleResolution": "node"
+    },
+    "typedockOptions": {
+        "mode": "modules",
+        "out": "docs"
     },
     "include": [
         "src/**/*"
-    ]
+    ],
+    "exclude": ["node_modules", "dist"]
+
 }

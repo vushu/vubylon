@@ -1,13 +1,25 @@
 {
     "name": "vubylon",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "Vubylon a babylonjs helper library, for reducing boilerplates",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
     "dependencies": {
         "@babylonjs/core": "^4.2.0"
     },
-    "files": [
-        "/vubylon"
-    ]
+    "author": "Dan Vu <vushuby@gmail.com>",
+    "license": "Apache License 2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vushu/vubylon"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "3.5.1"
+    }
 }
