@@ -8,6 +8,6 @@
         "@babylonjs/core": "^4.2.0"
     },
     "files": [
-        "/dist"
+        "/vubylon"
     ]
 }
